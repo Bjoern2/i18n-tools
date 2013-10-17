@@ -27,7 +27,12 @@ hello=Salut
 
 Console command:
 ```bash
-sh ~/i18n-tools/bin/i18n --inputFile ~/I18N.properties --outputFile ~/I18N.xls
+# Linux and friends
+sh ~/i18n-tools/bin/i18n-tools --inputFile ~/I18N.properties --outputFile ~/I18N.xls
+```
+```bash
+# Windows (command line; cmd.exe)
+c:\i18n-tools\bin\i18n-tools.bat --inputFile c:/temp/I18N.properties --outputFile c:/temp/I18N.xls
 ```
 (Please use for both parameters absolute paths. No relative paths!)
 
