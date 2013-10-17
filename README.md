@@ -42,3 +42,11 @@ I18N.xls
 </table>
 
 
+Download
+========
+
+Download the last builded version from BuildHive:
+
+[i18n-tools-1.0.zip](https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/ws/build/distributions/i18n-tools-1.0.zip)
+
+[i18n-tools-1.0.tar](https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/ws/build/distributions/i18n-tools-1.0.tar)
