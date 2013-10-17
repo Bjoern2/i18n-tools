@@ -27,8 +27,9 @@ hello=Salut
 
 Console command:
 ```bash
-sh ~/i18n-tools/bin/i18n --input ~/I18N.properties --output ~/I18N.xls
+sh ~/i18n-tools/bin/i18n --inputFile ~/I18N.properties --outputFile ~/I18N.xls
 ```
+(Please use for both parameters absolute paths. No relative paths!)
 
 Output file:
 I18N.xls
