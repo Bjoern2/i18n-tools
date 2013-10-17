@@ -3,6 +3,9 @@ i18n-tools for Java
 
 This application converts Java I18N files (files with extention '.properties') into XLS and back.
 
+[![Build Status](https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/badge/icon)](https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/)
+
+
 Example:
 Input files:
 ```
