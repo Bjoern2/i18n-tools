@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>I18n-tools by Bjoern2</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">I18n-tools</h1>
+        <p class="header"></p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/Bjoern2/i18n-tools/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/Bjoern2/i18n-tools/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/Bjoern2/i18n-tools">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/Bjoern2">Bjoern2</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="i18n-tools-for-java" class="anchor" href="#i18n-tools-for-java"><span class="octicon octicon-link"></span></a>i18n-tools for Java</h1>
+
+<p>This application converts Java I18N files (files with extention '.properties') into XLS and back.</p>
+
+<p><a href="https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/"><img src="https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/badge/icon" alt="Build Status"></a></p>
+
+<p>Example:
+Input files:</p>
+
+<pre><code># I18N.properties
+hello=Hello
+</code></pre>
+
+<pre><code># I18N_de_DE.properties
+hello=Hallo
+</code></pre>
+
+<pre><code># I18N_en_EN.properties
+hello=Hello
+</code></pre>
+
+<pre><code># I18N_fr_FR.properties
+hello=Salut
+</code></pre>
+
+<p>Console command:</p>
+
+<div class="highlight highlight-bash"><pre><span class="c"># Linux and friends</span>
+sh ~/i18n-tools/bin/i18n-tools --inputFile ~/I18N.properties --outputFile ~/I18N.xls
+</pre></div>
+
+<div class="highlight highlight-bash"><pre><span class="c"># Windows (command line; cmd.exe)</span>
+c:<span class="se">\i</span>18n-tools<span class="se">\b</span>in<span class="se">\i</span>18n-tools.bat --inputFile c:/temp/I18N.properties --outputFile c:/temp/I18N.xls
+</pre></div>
+
+<p>(Please use for both parameters absolute paths. No relative paths!)</p>
+
+<p>Output file:
+I18N.xls</p>
+
+<table>
+<tr>
+<th>Key</th>
+<th>Default</th>
+<th>de_DE</th>
+<th>en_EN</th>
+<th>fr_FR</th>
+  </tr>
+<tr>
+<td>hello</td>
+<td>Hello</td>
+<td>Hallo</td>
+<td>Hello</td>
+<td>Salut</td>
+  </tr>
+</table><h1>
+<a name="download" class="anchor" href="#download"><span class="octicon octicon-link"></span></a>Download</h1>
+
+<p>Download the last builded version from BuildHive:</p>
+
+<p><a href="downloads/i18n-tools-1.0.zip">i18n-tools-1.0.zip</a></p>
+
+<p><a href="downloads/i18n-tools-1.0.tar">i18n-tools-1.0.tar</a></p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
