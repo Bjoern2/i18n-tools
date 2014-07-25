@@ -54,7 +54,7 @@ I18N.xls
 Download
 ========
 
-Download the last builded version from BuildHive:
+Download the last builded version:
 
 [i18n-tools-1.0.zip](http://bjoern2.github.io/i18n-tools/downloads/i18n-tools-1.0.zip)
 
