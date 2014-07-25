@@ -56,6 +56,6 @@ Download
 
 Download the last builded version from BuildHive:
 
-[i18n-tools-1.0.zip](https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/ws/build/distributions/i18n-tools-1.0.zip)
+[i18n-tools-1.0.zip](http://bjoern2.github.io/i18n-tools/downloads/i18n-tools-1.0.zip)
 
-[i18n-tools-1.0.tar](https://buildhive.cloudbees.com/job/Bjoern2/job/i18n-tools/ws/build/distributions/i18n-tools-1.0.tar)
+[i18n-tools-1.0.tar](http://bjoern2.github.io/i18n-tools/downloads/i18n-tools-1.0.tar)
