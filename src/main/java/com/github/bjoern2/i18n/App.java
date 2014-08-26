@@ -15,6 +15,7 @@
  */
 package com.github.bjoern2.i18n;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -58,9 +59,28 @@ public class App {
 		CommandLineParser parser = new BasicParser();
 		CommandLine cmd = parser.parse(options, args);
 		
+		
+		// Input:
 		String input = cmd.getOptionValue("inputFile");
+		String inputFilename = FilenameUtils.getName(input);
+		String inputDirname = FilenameUtils.getFullPath(input);
+		File inputDir = new File(inputDirname);
+		if (!inputDir.exists()) {
+			inputDirname = System.getProperty("user.dir");
+			inputDir = new File(inputDirname);
+		}
+		input = FilenameUtils.concat(inputDirname, inputFilename);
+		
+		
 		String output = cmd.getOptionValue("outputFile");
-//		String format = cmd.getOptionValue("format");
+		String outputFilename = FilenameUtils.getName(output);
+		String outputDirname = FilenameUtils.getFullPath(output);
+		File outputDir = new File(outputDirname);
+		if (!outputDir.exists()) {
+			outputDirname = System.getProperty("user.dir");
+			outputDir = new File(outputDirname);
+		}
+		output = FilenameUtils.concat(outputDirname, outputFilename);
 		
 		String inputExt = FilenameUtils.getExtension(input);
 		String outputExt = FilenameUtils.getExtension(output);
